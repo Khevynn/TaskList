@@ -1,0 +1,134 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+section#top{
+    /* background-color: burlywood; */
+    display: inline-flex;
+    width: 100%;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-box{
+    margin: 1% 1%;
+    border-radius: 5px;
+    width: 60%;
+    height: 60%;
+    max-width: 500px;
+}
+
+#add-button{
+    border-radius: 5px;
+    border: 1px solid green;
+    min-width: 100px;
+    max-width: 200px;
+    height: 60%;
+    background-color: rgb(21, 222, 21);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#add-button:hover{
+    background-color: rgb(141, 197, 57);
+}
+
+#tasks{
+    display: list-item;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    background-color: antiquewhite;
+    width: 80%;
+    max-width: 600px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1% 0%;
+}
+
+.item-icon{
+    display: flex;
+    /* border: 1px solid; */
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-name{
+    display: flex;
+    /* border: 1px solid; */
+    width: 55%;
+    height: 100%;
+    align-items: center;
+}
+
+.item-button{
+    display: flex;
+    /* border: 1px solid; */
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-button i{
+    color: white;
+    left: 18%;
+    top: -2%;
+}
+
+.item-button button{
+    border: 0px solid;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    color: white;
+}
+
+.item-clicked{
+    display: flex;
+    
+    background-color: rgb(214, 191, 162);
+    width: 80%;
+    max-width: 600px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1% 0%;
+}
+
+.item-clicked .item-icon i{
+    background-color: greenyellow;
+}
+
+.item-clicked .item-name{
+    display: flex;
+    /* border: 1px solid; */
+    text-decoration: line-through;
+    width: 55%;
+    height: 100%;
+    align-items: center;
+}
